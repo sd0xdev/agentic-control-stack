@@ -421,7 +421,7 @@ sd0x-dev-flow 用**兩層防禦**來確保迴路不可逃脫：
 ```mermaid
 flowchart TD
     EDIT["Edit/Write 工具"] --> HOOK_POST["PostToolUse Hook<br/>追蹤變更 + 失效 review 狀態"]
-    HOOK_POST --> STATE["`.claude_review_state.json`<br/>has_code_change: true<br/>code_review.passed: false"]
+    HOOK_POST --> STATE[".claude_review_state.json<br/>has_code_change: true<br/>code_review.passed: false"]
 
     STATE --> AUTO["auto-loop 規則<br/>強制觸發 /codex-review-fast"]
     AUTO --> REVIEW["Review 執行完成<br/>sentinel: ✅ Ready"]

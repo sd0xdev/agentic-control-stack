@@ -103,7 +103,7 @@ Layer 1  Feedforward Gate      — static analysis・type check・lint
 ### 使用方式
 
 ```bash
-git clone https://github.com/yasuoyuhao/agentic-control-stack.git
+git clone https://github.com/sd0xdev/agentic-control-stack.git
 cd agentic-control-stack
 claude  # 在專案根目錄啟動 Claude Code
 ```
