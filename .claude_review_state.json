@@ -1,0 +1,21 @@
+{
+  "session_id": "",
+  "updated_at": "2026-02-21T05:27:13Z",
+  "has_code_change": false,
+  "has_doc_change": true,
+  "code_review": {
+    "executed": false,
+    "passed": false,
+    "last_run": ""
+  },
+  "doc_review": {
+    "executed": false,
+    "passed": false,
+    "last_run": ""
+  },
+  "precommit": {
+    "executed": false,
+    "passed": false,
+    "last_run": ""
+  }
+}
